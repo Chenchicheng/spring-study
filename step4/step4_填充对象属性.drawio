@@ -134,7 +134,7 @@
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="YOw3KZ_0upeGLzWHfSf4-34" value="+ value: Object" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#009900;" vertex="1" parent="YOw3KZ_0upeGLzWHfSf4-32">
-          <mxGeometry y="52" width="140" height="26" as="geometry" />
+          <mxGeometry y="52" width="140"   height="26" as="geometry" />
         </mxCell>
         <mxCell id="YOw3KZ_0upeGLzWHfSf4-35" value="«interface»&lt;br&gt;&lt;b&gt;BeanReference&lt;/b&gt;" style="html=1;strokeColor=#000000;fontColor=#009900;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1023" y="850" width="110" height="50" as="geometry" />
