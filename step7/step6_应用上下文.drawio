@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T08:11:37.462Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="OmWmrj5BEcG3KS4gcP1K" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-07T09:26:52.094Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="N3H0-RGlVCDgc-dn2zDq" version="20.8.16" type="github">
   <diagram name="第 1 页" id="fSW9POhgTLXBQTBBJMN1">
     <mxGraphModel dx="3088" dy="1933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,7 +41,7 @@
           <mxGeometry x="120" y="780" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JdIku7EspXfbWxuUCBQc-11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;DefaultListableBeanFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ beanDefinitonMap: Map&amp;lt;String, BeanDefiniton&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&amp;nbsp;+ getBeanDefinition(String beanName): BeanDefinition&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ registerBeanDefinition(String beanName, BeanDefinition bd): void&lt;br&gt;&lt;/p&gt;&lt;font color=&quot;#009900&quot;&gt;&amp;nbsp;+&lt;/font&gt;&amp;nbsp;&lt;span style=&quot;border-color: var(--border-color); color: rgb(0, 153, 0); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;getBeanDefinition&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 153, 0); background-color: rgb(255, 255, 255);&quot;&gt;(String beanName):BeanDefinition&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#009900&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;+&lt;/font&gt;&amp;nbsp;getBeanDefinitionNames&lt;span style=&quot;border-color: var(--border-color); background-color: rgb(255, 255, 255);&quot;&gt;():String[]&lt;/span&gt;&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 153, 0);&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 153, 0);&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(0, 153, 0); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 10.5pt; background-color: rgb(255, 255, 255);&quot;&gt;preInstantiateSingletons:void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(0, 153, 0); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 10.5pt; background-color: rgb(255, 255, 255);&quot;&gt;+ getBeansofType(Class&amp;lt;T&amp;gt; type): Map&amp;lt;String, T&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(0, 153, 0); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 10.5pt; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="445" y="780" width="290" height="180" as="geometry" />
+          <mxGeometry x="445" y="780" width="290" height="190" as="geometry" />
         </mxCell>
         <mxCell id="JdIku7EspXfbWxuUCBQc-12" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.002;exitY=0.365;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JdIku7EspXfbWxuUCBQc-11" target="JdIku7EspXfbWxuUCBQc-10">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -427,6 +427,30 @@
         </mxCell>
         <mxCell id="JdIku7EspXfbWxuUCBQc-116" value=" + addBeanPostProcessor(BeanPostProcessor beanPostProcessor): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#009900;" vertex="1" parent="1">
           <mxGeometry x="460" y="420" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JdIku7EspXfbWxuUCBQc-122" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;BeanFactoryPostProcessor&lt;/b&gt;&lt;/p&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;+&amp;nbsp;postProcessBeanFactory&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;(ConfigurableListableBeanFactory beanFactory)&lt;/span&gt;:void&lt;/span&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fontColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="-250" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JdIku7EspXfbWxuUCBQc-123" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;BeanPostProcessor&lt;/b&gt;&lt;/p&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;+&amp;nbsp;postProcessBeforeInitialization&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;(Object bean&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;String beanName)&lt;/span&gt;: Object&lt;br&gt;&lt;/span&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;+&amp;nbsp;postProcessAfterInitialization&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;(Object bean&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;String beanName)&lt;/span&gt;: Object&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fontColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="-100" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JdIku7EspXfbWxuUCBQc-124" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;fontColor=#009900;exitX=-0.004;exitY=0.57;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.004;entryY=0.606;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JdIku7EspXfbWxuUCBQc-122" target="JdIku7EspXfbWxuUCBQc-93">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="230" y="-170" as="sourcePoint" />
+            <mxPoint x="390" y="-170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-230" y="-140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JdIku7EspXfbWxuUCBQc-125" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;fontColor=#009900;exitX=-0.011;exitY=0.44;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.004;entryY=0.606;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JdIku7EspXfbWxuUCBQc-123">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-61.11999999999989" y="-183" as="sourcePoint" />
+            <mxPoint x="-229.03999999999996" y="-139.03999999999996" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-230" y="-120" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
