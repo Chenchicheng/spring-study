@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="userDao" class="beans.UserDao"/>
+    <bean id="userService" class="beans.UserService">
+        <property name="uId" value="10002"/>
+        <property name="userDao" ref="userDao"/>
+        <property name="location" value="深圳"/>
+        <property name="company" value="金山办公"/>
+    </bean>
+    <bean class="beans.MyBeanFactoryPostProcessor"/>
+    <bean class="beans.MyBeanPostProcessor"/>
+</beans>
